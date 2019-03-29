@@ -1,0 +1,19 @@
+body {
+  background-color: #ccc;
+  -webkit-animation: move 1s ease;
+          animation: move 1s ease; }
+
+@-webkit-keyframes move {
+  from {
+    opacity: 0.1; }
+  to {
+    opacity: 1; } }
+
+@keyframes move {
+  from {
+    opacity: 0.1; }
+  to {
+    opacity: 1; } }
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvY29tcG9uZW50cy9BcHAvQXBwLnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxzQkFBc0I7RUFDdEIsK0JBQXVCO1VBQXZCLHVCQUF1Qjs7QUFFekI7RUFDRTtJQUNFLFlBQVk7RUFDZDtJQUNFLFVBQVU7O0FBSmQ7RUFDRTtJQUNFLFlBQVk7RUFDZDtJQUNFLFVBQVUiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNjY2M7XG4gIGFuaW1hdGlvbjogbW92ZSAxcyBlYXNlOyB9XG5cbkBrZXlmcmFtZXMgbW92ZSB7XG4gIGZyb20ge1xuICAgIG9wYWNpdHk6IDAuMTsgfVxuICB0byB7XG4gICAgb3BhY2l0eTogMTsgfSB9XG4iXSwic291cmNlUm9vdCI6IiJ9*/
