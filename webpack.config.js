@@ -17,16 +17,6 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
   },
-  mode: 'development',
-  devtool: 'inline-source-map',
-  devServer: {
-    contentBase: path.resolve(__dirname, '/public'),
-    watchContentBase: true,
-    compress: true,
-    open: true,
-    disableHostCheck: true,
-    port: 3000
-  },
   module: {
     rules: [
       {
@@ -64,6 +54,18 @@ module.exports = {
               sourceMap: true
             }
           }
+        ]
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          'file-loader'
+        ]
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          'file-loader'
         ]
       }
     ]
